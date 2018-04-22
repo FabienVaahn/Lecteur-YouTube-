@@ -25,13 +25,13 @@
                                     <constraint firstAttribute="height" constant="250" id="hZ6-ju-o5s"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lecteur YouTube" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="4Tx-d0-iLg">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vidéos du PSG" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="4Tx-d0-iLg">
                                 <rect key="frame" x="20" y="160.5" width="335" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="uww-w2-gdV"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.098039215686274508" green="0.27450980392156865" blue="0.50196078431372548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -52,6 +52,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="logo" width="960" height="553"/>
+        <image name="logo" width="256" height="256"/>
     </resources>
 </document>

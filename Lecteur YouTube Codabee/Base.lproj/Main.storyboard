@@ -98,6 +98,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="logo" width="960" height="553"/>
+        <image name="logo" width="256" height="256"/>
     </resources>
 </document>
