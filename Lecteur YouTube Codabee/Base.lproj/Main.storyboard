@@ -86,13 +86,32 @@
                     <view key="view" contentMode="scaleToFill" id="fjM-L6-At8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TGc-ID-rPF">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="TGc-ID-rPF" firstAttribute="top" secondItem="hgC-LR-66O" secondAttribute="top" id="WvK-kR-hjL"/>
+                            <constraint firstItem="hgC-LR-66O" firstAttribute="bottom" secondItem="TGc-ID-rPF" secondAttribute="bottom" id="gAs-Kd-3fs"/>
+                            <constraint firstItem="hgC-LR-66O" firstAttribute="trailing" secondItem="TGc-ID-rPF" secondAttribute="trailing" id="kgi-Qz-S9Q"/>
+                            <constraint firstItem="TGc-ID-rPF" firstAttribute="leading" secondItem="hgC-LR-66O" secondAttribute="leading" id="z0t-lE-bmu"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="hgC-LR-66O"/>
                     </view>
+                    <connections>
+                        <outlet property="webView" destination="TGc-ID-rPF" id="64n-bs-TsE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QBK-bQ-wlw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1692" y="540"/>
+            <point key="canvasLocation" x="1692" y="539.28035982008998"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Qf6-Bh-S4V">
