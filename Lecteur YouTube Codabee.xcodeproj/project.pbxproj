@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		223B850E208C7D0E00BCACF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223B850D208C7D0E00BCACF3 /* AppDelegate.swift */; };
-		223B8510208C7D0E00BCACF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223B850F208C7D0E00BCACF3 /* ViewController.swift */; };
 		223B8513208C7D0E00BCACF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223B8511208C7D0E00BCACF3 /* Main.storyboard */; };
 		223B8515208C7D1000BCACF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 223B8514208C7D1000BCACF3 /* Assets.xcassets */; };
 		223B8518208C7D1000BCACF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223B8516208C7D1000BCACF3 /* LaunchScreen.storyboard */; };
+		223B8520208C83B700BCACF3 /* TableauController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223B851F208C83B700BCACF3 /* TableauController.swift */; };
+		223B8522208C864C00BCACF3 /* Chanson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223B8521208C864C00BCACF3 /* Chanson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		223B850A208C7D0E00BCACF3 /* Lecteur YouTube Codabee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lecteur YouTube Codabee.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		223B850D208C7D0E00BCACF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		223B850F208C7D0E00BCACF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		223B8512208C7D0E00BCACF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		223B8514208C7D1000BCACF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		223B8517208C7D1000BCACF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		223B8519208C7D1000BCACF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		223B851F208C83B700BCACF3 /* TableauController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableauController.swift; sourceTree = "<group>"; };
+		223B8521208C864C00BCACF3 /* Chanson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chanson.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				223B850D208C7D0E00BCACF3 /* AppDelegate.swift */,
-				223B850F208C7D0E00BCACF3 /* ViewController.swift */,
 				223B8511208C7D0E00BCACF3 /* Main.storyboard */,
 				223B8514208C7D1000BCACF3 /* Assets.xcassets */,
 				223B8516208C7D1000BCACF3 /* LaunchScreen.storyboard */,
 				223B8519208C7D1000BCACF3 /* Info.plist */,
+				223B851F208C83B700BCACF3 /* TableauController.swift */,
+				223B8521208C864C00BCACF3 /* Chanson.swift */,
 			);
 			path = "Lecteur YouTube Codabee";
 			sourceTree = "<group>";
@@ -135,8 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				223B8510208C7D0E00BCACF3 /* ViewController.swift in Sources */,
+				223B8520208C83B700BCACF3 /* TableauController.swift in Sources */,
 				223B850E208C7D0E00BCACF3 /* AppDelegate.swift in Sources */,
+				223B8522208C864C00BCACF3 /* Chanson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
