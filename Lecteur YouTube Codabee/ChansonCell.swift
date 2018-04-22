@@ -38,7 +38,7 @@ class ChansonCell: UITableViewCell {
     }
 
     func telechargerImage(){
-        miniature.image = #imageLiteral(resourceName: "logo")
+        miniature.image = #imageLiteral(resourceName: "psg128")
         
         if let url = URL(string: self.chanson.miniatureUrl) {
             let session = URLSession.shared
