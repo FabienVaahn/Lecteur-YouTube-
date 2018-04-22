@@ -14,7 +14,7 @@ class Chanson {
     private var _code: String
     private var _baseUrlVideo = "https://www.youtube.com/embed/"
     private var _baseUrlMiniature = "http://i.ytimg.com/vi/"
-    private var _finUrlMiniature = "/macresdefault.jpg"
+    private var _finUrlMiniature = "/default.jpg"
     
     var artiste: String {
         return _artiste
