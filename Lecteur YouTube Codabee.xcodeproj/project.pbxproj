@@ -13,6 +13,7 @@
 		223B8518208C7D1000BCACF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223B8516208C7D1000BCACF3 /* LaunchScreen.storyboard */; };
 		223B8520208C83B700BCACF3 /* TableauController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223B851F208C83B700BCACF3 /* TableauController.swift */; };
 		223B8522208C864C00BCACF3 /* Chanson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223B8521208C864C00BCACF3 /* Chanson.swift */; };
+		223B8524208C978700BCACF3 /* ChansonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223B8523208C978700BCACF3 /* ChansonCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		223B8519208C7D1000BCACF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		223B851F208C83B700BCACF3 /* TableauController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableauController.swift; sourceTree = "<group>"; };
 		223B8521208C864C00BCACF3 /* Chanson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chanson.swift; sourceTree = "<group>"; };
+		223B8523208C978700BCACF3 /* ChansonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChansonCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				223B8519208C7D1000BCACF3 /* Info.plist */,
 				223B851F208C83B700BCACF3 /* TableauController.swift */,
 				223B8521208C864C00BCACF3 /* Chanson.swift */,
+				223B8523208C978700BCACF3 /* ChansonCell.swift */,
 			);
 			path = "Lecteur YouTube Codabee";
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				223B8520208C83B700BCACF3 /* TableauController.swift in Sources */,
 				223B850E208C7D0E00BCACF3 /* AppDelegate.swift in Sources */,
+				223B8524208C978700BCACF3 /* ChansonCell.swift in Sources */,
 				223B8522208C864C00BCACF3 /* Chanson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
