@@ -72,11 +72,27 @@
                     <navigationItem key="navigationItem" id="NWO-R7-3oe"/>
                     <connections>
                         <outlet property="TableView" destination="aXy-cg-cpZ" id="XtQ-7F-7og"/>
+                        <segue destination="QgM-Xq-nYe" kind="show" identifier="VersVideo" id="zoM-Yh-yCJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="893.60000000000002" y="131.78410794602701"/>
+        </scene>
+        <!--Video Controller-->
+        <scene sceneID="0Bl-dd-ZHX">
+            <objects>
+                <viewController id="QgM-Xq-nYe" customClass="VideoController" customModule="Lecteur_YouTube_Codabee" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fjM-L6-At8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="hgC-LR-66O"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QBK-bQ-wlw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1692" y="540"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Qf6-Bh-S4V">
