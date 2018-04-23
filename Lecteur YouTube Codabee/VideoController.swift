@@ -12,13 +12,13 @@ import WebKit
 class VideoController: UIViewController {
 
     @IBOutlet weak var webView: WKWebView!
-    var chanson: Chanson?
+    var chanson2: Chanson?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if chanson != nil{
-            title = chanson!.titre
-            chargerVideo(chanson: chanson!)
+        if chanson2 != nil{
+            title = chanson2!.titre
+           chargerVideo(chanson: chanson2!)
         }
         
     }
@@ -33,3 +33,5 @@ class VideoController: UIViewController {
     
     
 }
+
+

@@ -71,8 +71,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="NWO-R7-3oe"/>
                     <connections>
-                        <outlet property="TableView" destination="aXy-cg-cpZ" id="XtQ-7F-7og"/>
-                        <segue destination="QgM-Xq-nYe" kind="show" identifier="VersVideo" id="zoM-Yh-yCJ"/>
+                        <outlet property="tableView" destination="aXy-cg-cpZ" id="1Yu-Nq-J87"/>
+                        <segue destination="QgM-Xq-nYe" kind="show" identifier="VersVideo" id="KEX-h5-bTj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -87,8 +87,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TGc-ID-rPF">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            <wkWebView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TGc-ID-rPF">
+                                <rect key="frame" x="106" y="125" width="269" height="542"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
